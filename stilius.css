@@ -164,6 +164,7 @@ button:hover {
     font-size: medium;
     padding: 2.5rem;
     line-height: 28px;
+
 }
 .about-general{
     display: flex;
@@ -239,8 +240,9 @@ i {
     margin-left: 1.5rem;
     font-size: large;
 }
-input{
+form>input{
     font-size: medium;
+    width: 350px;
     height: 28px;
     border-radius: 3px;
 }
@@ -351,6 +353,9 @@ input.wideform{
     }
     #about-horizontal{
         height: 100%;
+    }
+    form>input{
+        width: 270px;
     }
 }
 @media (max-width: 1800px){
